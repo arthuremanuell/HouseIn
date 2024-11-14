@@ -1,0 +1,110 @@
+
+   body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .sidebar {
+            width: 250px;
+            background: linear-gradient(to bottom, #2c3e50, #3498db);
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .sidebar img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+        .sidebar h2 {
+            font-size: 18px;
+            margin: 10px 0 5px;
+        }
+        .sidebar p {
+            font-size: 14px;
+            margin: 0;
+        }
+        .sidebar .menu {
+            margin-top: 30px;
+        }
+        .sidebar .menu a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px 0;
+            font-size: 16px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .sidebar .menu a i {
+            margin-right: 10px;
+        }
+        .sidebar .logout {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .content h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        .content .date {
+            font-size: 14px;
+            color: gray;
+        }
+        .content .logo {
+            float: right;
+            margin-top: -140px;
+            width: 150px;
+            height: 170px;
+        }
+        .content .visitors {
+            margin-top: 20px;
+        }
+        .content .visitors h2 {
+            font-size: 18px;
+            margin: 0 0 10px;
+        }
+        .content .visitor-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .content .visitor-card .info {
+            font-size: 14px;
+        }
+        .content .visitor-card .info p {
+            margin: 5px 0;
+        }
+        .content .visitor-card .info .access {
+            color: green;
+        }
+        .content .visitor-card .qr-code {
+            font-size: 20px;
+        }
+        .content .add-visitor {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #2c3e50;
+            color: white;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            cursor: pointer;
+        }
+ 

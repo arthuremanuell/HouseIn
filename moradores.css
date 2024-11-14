@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+.sidebar {
+    width: 250px;
+    background: linear-gradient(to bottom, #0a3d62, #3c6382);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.sidebar img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.sidebar .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.sidebar .user-info div {
+    margin-left: 10px;
+}
+.sidebar .user-info div p {
+    margin: 0;
+}
+.sidebar .menu {
+    list-style: none;
+    padding: 0;
+}
+.sidebar .menu li {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.sidebar .menu li i {
+    margin-right: 10px;
+}
+.sidebar .logout {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.main-content {
+    flex-grow: 1;
+    background: #f4f4f9;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.main-content header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-content header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.main-content header p {
+    margin: 0;
+    color: #888;
+}
+.main-content header img {
+    
+    width: 200px;
+    height: 250px;
+}
+.main-content .search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.main-content .search-bar h2 {
+    margin: 0;
+    font-size: 20px;
+}
+.main-content .search-bar i {
+    font-size: 20px;
+    cursor: pointer;
+}
+.main-content .residents {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.main-content .residents .card {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 10px);
+    box-sizing: border-box;
+}
+.main-content .residents .card p {
+    margin: 5px 0;
+}
+.main-content .add-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #0a3d62;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+}
